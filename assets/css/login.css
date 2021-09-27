@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../images/login_bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.layui-main img {
+  margin-top: 20px;
+}
+.loginAndRegBox {
+  width: 400px;
+  height: 310px;
+  background: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* 后台管理标题 */
+.header-box {
+  height: 60px;
+  background: url(../images/login_title.png) no-repeat center;
+}
+.reg-box {
+  display: none;
+}
+/* 让表单居中 */
+.layui-form {
+  padding: 0 30px;
+}
+/* 将去注册，去登录在右边操作 */
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+/* 下面操作把icon放置好 */
+.layui-form-item {
+  position: relative;
+}
+.layui-form-item input {
+  padding-left: 30px;
+}
+.layui-form-item i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
