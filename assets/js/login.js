@@ -66,7 +66,7 @@ $(function(){
                 localStorage.setItem('token',res.token)
                 // 跳转到后台主页
                 setInterval(function(){
-                    location.href ='/index.html'
+                    location.href ='./index.html'
                 },1000)
                 
             }
